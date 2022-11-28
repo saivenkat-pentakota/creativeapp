@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>WebPage Design</title>
+        <link rel = "stylesheet" href = "app.component.css">
+    </head>
+    <body>
+        <div class="main">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class = "logo">CREATIVE</h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href = "/">HOME</a></li>
+                        <li><a href = "/">ABOUT</a></li>
+                        <li><a href = "/">SERVICE</a></li>
+                        <li><a href = "/">DESIGN</a></li>
+                        <li><a href = "/">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class = "srch" type = "search" name = "" placeholder="Type To Text">
+                    <a href = "/" ><button class = "search-btn" >Search</button></a>
+                </div> 
+            </div>
+            <!-- content -->
+            <div class = "content">
+                <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+                <p class = "para">We design & develop your website strategically & carefully by analysing your needs & goals.<br> 
+                    We make quality website that helps you stand out from the crowd & make an impact in market.<br> 
+                    Affordable Pricing. Highly Experienced. Free Domain. Website & Ads.</p>
+                <button class ="joinus"><a href ="/" >JOIN NOW</a></button>
+            </div>
+            <!-- login-form -->
+            <div class = login-form>
+                <h2 class = "login-header">Login</h2>
+                <input type = "email" name ="email" placeholder="Enter Email ">
+                <input type = "password" name ="password" placeholder="Enter password">
+                <button class = "logn-form-btn"><a href ="#">LOGIN</a></button>
+                <P class = "signup-link">Don't have an account<br>
+                <a href = "#">Sign up </a>here</P>
+                <p class = "liw">Log in with</p>
+                <div class = "login-icons">
+                  <a href = "#"><fa-icon [icon]="faEnvelope"></fa-icon></a>
+                  <a href = "#"><fa-icon [icon]="faLinkedinIn"></fa-icon></a>
+                  <a href = "#"><fa-icon [icon]="faFacebook"></fa-icon></a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    background:url('src/images/backgroundimage1.jpg');
+    background-position: center;
+    background-size: cover;
+    height:109vh; 
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+.logo{
+    color:#ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left:20px ;
+    padding-top: 10px;
+    float:left;
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:orange;
+}
+
+.search{
+    width:330px;
+    float:left;
+    margin-left:270px;
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width:200px;
+    height:40px;
+    background:transparent ;
+    border:1px solid #ff7200;
+    margin-top: 13px;
+    color:white;
+    border-right:none ;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius: 5px;
+}
+
+.search-btn{
+    width: 100px;
+    height: 40px;
+    border: 2px solid orange ;
+    background:orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.content{
+    width:1200px ;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing:1.2px ;
+    line-height: 30px;
+}
+
+.content h1{
+font-family: 'Times New Roman';
+font-size: 50px;
+padding-left: 20px;
+margin-top: 50px;
+letter-spacing: 2px;
+
+}
+
+.content .joinus{
+    width:160px;
+    height:40px;
+    background:#ff7200;
+    border:none;
+    margin-bottom:10px;
+    margin-left:20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .joinus a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content span{
+    color: #ff7200;
+    font-size:70px;
+}
+
+.login-form{
+     width:250px;
+     height:400px;
+     background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+     position: absolute;
+     text-align: center;
+     top:120px;
+     left: 930px;
+     border-radius:10px ;
+     padding: 45px;
+     
+}
+
+.login-header{
+    font-family:sans-serif ;
+    text-align: center;
+    color: #ff7200;
+    font-size: 26px;
+}
+
+.login-form input{
+    width:240px;
+    height:35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color:#fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.login-form input:focus{
+    outline:none;
+
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.logn-form-btn{
+    width:240px;
+    height:40px ;
+    border:none;
+    background:#ff7200;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.logn-form-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.login-form .signup-link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color:#fff;
+
+
+}
+
+.login-form .signup-link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw{
+    padding:15px;
+    padding-bottom:10px;
+    text-align: center;
+    color:#fff;
+}
+.login-icons{
+    margin: 15px;
+}
+.login-icons fa-icon{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    color: #fff;
+}
