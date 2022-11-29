@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import{faFacebook,faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
+import{faFacebook,faLinkedinIn,faGoogle} from '@fortawesome/free-brands-svg-icons';
 import{faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -11,5 +11,6 @@ export class AppComponent {
   title = 'creativeapp';
   faFacebook = faFacebook;
   faEnvelope = faEnvelope;
-  faLinkedinIn = faLinkedinIn
+  faLinkedinIn = faLinkedinIn;
+  faGoogle = faGoogle;
 }
